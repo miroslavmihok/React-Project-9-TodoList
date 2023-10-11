@@ -1,0 +1,125 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: #CFDBD5;
+  padding-top: 3rem;
+}
+
+.Container {
+  background-color: #E8EDDF;
+  max-width: 50%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+form label {
+  color:#333533;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  height: 32px;
+  border-radius: 1rem;
+  border: 0px;
+  padding: 0 7rem 0 1rem;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form input::placeholder {
+  color: #32333171;
+}
+
+form button {
+  height: 32px;
+  width: 98px;
+  border: 0px;
+  border-radius: 1rem;
+  background-color: #F5CB5C;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  display: flex;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+form button:focus {
+  background-color: #edd286;
+}
+
+.No-entry {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.No-entry p {
+  color:#333533;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.todos {
+  max-width: 25%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  text-align: center;
+}
+
+.todos ul {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.todos ul li {
+  background-color: #E8EDDF;
+  height: 32px;
+  width: 100%;
+  list-style: none;
+  margin-bottom: 0.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.todos ul li:nth-child(even) {
+  background-color: #DFE7DC;
+}
+
+.todos ul li:hover {
+  background-color: #6fc681;
+}
+
+.todos ul li button {
+  height: 32px;
+  width: 32px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  display: flex;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.todos ul li button:hover {
+  background-color: rgba(255, 68, 68, 0.859);
+}
